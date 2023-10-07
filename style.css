@@ -416,10 +416,17 @@ button{
     border-radius: 10px;
     margin-bottom: 20px;
 }
+#cont8imgbox img:hover{
+    cursor: pointer;
+}
 .container8 #tempbut{
     position: relative;
     top: 110px;
     left: 43%;
+}
+#tempbut .btn:hover{
+    background-color: #00000012;
+    cursor: pointer;
 }
 .container8 #tempbut button{
     height: 40px;
@@ -496,6 +503,10 @@ button{
     border-radius: 4px;
     padding: 0px 14px;
     font-weight: bold;
+}
+#teamstrybutton button:hover{
+    cursor: pointer;
+    background-color: #7300E6;
 }
 .container11{
     height: 515px;
